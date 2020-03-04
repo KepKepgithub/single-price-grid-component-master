@@ -156,6 +156,10 @@ body {
   .article_wrap .subscription__button {
     width: 90%;
   }
+  .article_wrap .subscription__button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
   .article_wrap .explanation {
     -webkit-box-flex: 1;
         -ms-flex: 1;

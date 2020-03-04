@@ -1,0 +1,26 @@
+@media only screen and(min-width:300px){
+    .header{
+        background-color: white;
+        padding: 1em;
+        padding-bottom: 2em;
+        &__heading{
+            color: $cyan;
+            margin-bottom: 1em;
+            font-size: 1.5em;
+        }
+        &__paragraph{
+            color: $grayish_blue;
+            line-height: 1.5em;
+            &--green{
+                color: $yellow;
+            }
+            &--bold{
+                font-weight: 700;
+            }
+            // adds a little bit of margin under green paragraph
+            &:nth-child(2){
+                margin-bottom: 1em;
+            }
+        }
+    }
+}

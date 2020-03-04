@@ -49,3 +49,31 @@
         }
     }
 }
+
+
+@media only screen and (min-width:1024px){
+    .article_wrap{
+        display: flex;
+        .subscription{
+            flex: 1;
+            padding: 2em;
+            &__heading{
+                font-weight: bold;
+            }
+            &__button{
+                width: 90%;
+            }
+        }
+        .explanation{
+            flex: 1;
+            padding: 1.65em 2em 0em 2.5em;
+            &__header{
+                font-size: 1.2em;
+                margin-bottom: 1em;
+            }
+            &__paragraph{
+                font-size: .9em;
+            }
+        }
+    }
+}
